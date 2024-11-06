@@ -1,0 +1,176 @@
+{
+    // editor
+    "editor.fontSize": 16,
+    "editor.cursorWidth": 2,
+    "editor.wordWrap": "on",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "expand",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.stickyScroll.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.inlineSuggest.enabled": true,
+    "editor.suggest.showStatusBar": true,
+    "editor.guides.bracketPairs": true,
+    "editor.accessibilitySupport": "off",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.fontFamily": "Fira Code, Operator Mono, Cascadia Code",
+    "editor.fontLigatures": true,
+    "editor.quickSuggestions": {
+        "strings": true,
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    // formatting
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "quickfix.biome": "explicit",
+        "source.fixAll.biome": "explicit",
+        "source.addMissingImports.ts": "always"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.inlayHints.parameterNames.enabled": "literals",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "postcss": "css"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    // breadcrumbs
+    "breadcrumbs.symbolPath": "off",
+    // theme
+    "workbench.statusBar.visible": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Dracula Theme",
+    // terminal
+    "terminal.integrated.env.osx": {
+        "Q_NEW_SESSION": "1"
+    },
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontFamily": "MesloLGS NF, Fira Code, Operator Mono",
+    // terminal customization
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#31373b",
+        "terminal.background": "#00000000",
+        "terminal.foreground": "#E9E9F4",
+        "terminalCursor.background": "#E9E9F4",
+        "terminalCursor.foreground": "#E9E9F4",
+        "terminal.ansiBlack": "#282939",
+        "terminal.ansiBlue": "#62D6E8",
+        "terminal.ansiBrightBlack": "#626483",
+        "terminal.ansiBrightBlue": "#62D6E8",
+        "terminal.ansiBrightCyan": "#A1EFE4",
+        "terminal.ansiBrightGreen": "#EBFF87",
+        "terminal.ansiBrightMagenta": "#B45BCF",
+        "terminal.ansiBrightRed": "#EA51B2",
+        "terminal.ansiBrightWhite": "#F7F7FB",
+        "terminal.ansiBrightYellow": "#00F769",
+        "terminal.ansiCyan": "#A1EFE4",
+        "terminal.ansiGreen": "#EBFF87",
+        "terminal.ansiMagenta": "#B45BCF",
+        "terminal.ansiRed": "#EA51B2",
+        "terminal.ansiWhite": "#E9E9F4",
+        "terminal.ansiYellow": "#00F769",
+        "editorCursor.background": "#000000",
+        "editorCursor.foreground": "#fdcf00",
+        "tab.activeBorder": "#B45BCF",
+        "tab.activeBorderTop": "#EA51B2",
+        "tab.activeBackground": "#242635",
+        "tab.activeForeground": "#E9E9F4"
+    },
+    "npm.packageManager": "bun",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "window.zoomLevel": 0.2,
+    "window.commandCenter": true,
+    "window.nativeFullScreen": true,
+    "window.newWindowDimensions": "inherit",
+    // errorLens
+    "errorLens.fontStyleItalic": true,
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.statusBarIconsEnabled": true,
+    "errorLens.statusBarMessageEnabled": true,
+    "errorLens.statusBarColorsEnabled": true,
+    "errorLens.excludeBySource": [
+        "cSpell"
+    ],
+    "errorLens.exclude": [
+        "Inline style",
+        "Unknown property",
+        "Unknown at rule @tailwind",
+        "Unknown at rule @apply"
+    ],
+    "cSpell.userWords": [
+        "Bangla"
+    ],
+    "git.autofetch": true,
+    // custom vscode
+    "apc.electron": {
+        "opacity": 0.95,
+        "frame": false,
+        "transparent": true,
+        "titleBarStyle": "hidden",
+        "backgroundColor": "#00000000",
+        "vibrancy": "appearance-based",
+        "visualEffectState": "active"
+    },
+    "apc.imports": [
+        "file:///Users/sohelislamimran/custom-vscode.css",
+        "file:///Users/sohelislamimran/vscode-script.js"
+    ],
+    // Cursor
+    "cursor.chat.smoothStreaming": true,
+    "cursor.chat.premiumChatAutoScrollWhenAtBottom": true,
+    "cursor.chat.showSuggestedFiles": true,
+    "cursor.cmdk.useThemedDiffBackground": true,
+    "cursor.diffs.useCharacterLevelDiffs": true,
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.colorCustomizations"
+    ],
+}
