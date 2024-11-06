@@ -1,6 +1,6 @@
 # Extensions
 
-1. [Amazon Q for command line](https://marketplace.visualstudio.com/items?itemName=amazonwebservices.codewhisperer-for-command-line-companion)
+1. [Amazon Q for command line](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-getting-started-installing.html)
 2. [Apc Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension)
 3. [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 4. [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
