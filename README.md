@@ -1,5 +1,5 @@
 # custom-vscode-settings
-Custom VS Code / Cursor Settings (JSON, CSS, and JS files)
+Custom VS Code / Cursor Settings
 
 ![image](https://github.com/user-attachments/assets/ae5bcdba-c778-4c02-9b7a-7293ad44cf1b)
 
