@@ -1,5 +1,5 @@
 # custom-vscode-settings
-VS Code settings JSON, CSS, and JS files for IDE minimalist.
+Custom VS Code / Cursor Settings (JSON, CSS, and JS files)
 
 ![image](https://github.com/user-attachments/assets/ae5bcdba-c778-4c02-9b7a-7293ad44cf1b)
 
